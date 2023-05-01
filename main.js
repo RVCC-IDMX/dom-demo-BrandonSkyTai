@@ -39,7 +39,7 @@ function onsubmit(e) {
     ${nameInput.value} : ${emailInput.value}`));
 
     userList.appendChild(li);
-    msg.innerHTML = 'Thank you!';
+    
     //clear fields
     nameInput.value = '';
     emailInput.value = '';
